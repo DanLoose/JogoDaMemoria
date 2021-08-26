@@ -15,8 +15,8 @@ body{
 }
 
 .card{
-    height: 120px;
-    width: 120px;
+    height: 135px;
+    width: 135px;
     position: relative;
     transform-style: preserve-3d;
     transition: transform .5s;
@@ -55,7 +55,7 @@ body{
     justify-content: center;
     align-items: center;
     display: grid;
-    grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr  1fr;
     gap: 20px;
 }
 
