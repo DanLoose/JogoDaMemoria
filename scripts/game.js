@@ -9,7 +9,16 @@ let game = {
     // =========== INICIALIZAÇÃO DAS CARTAS DO JOGO ===============
 
     //Cars do jogo da memória - insira o nome da imagem
-    techs: ['bootstrap',],
+    techs: ['bootstrap',
+            'css',
+            'electron',
+            'firebase',
+            'mongo',
+            'react',
+            'jquery',
+            'html',
+            'javascript',
+            'node',],
 
     
     // Cria os cards com base no array anterior     
