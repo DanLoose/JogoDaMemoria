@@ -14,6 +14,11 @@ body{
     background-color: #c7cdd3;
 }
 
+img{
+    width: 80px;
+    height: 80px;
+}
+
 .card{
     height: 135px;
     width: 135px;

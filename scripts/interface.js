@@ -1,14 +1,15 @@
+// Classes do CSS que serão usadas para manipular o estilo das cartas
 const FRONT = "front-card";
 const BACK = "back-card";
 const CARD = "card";
 const ICON = "icon";
 const FLIP = "flip";
 
-
+// =============  CONTROLE DO JOGO  ======================
 startGame();
 
+// inicio de jogo, cria as cartas no HTML
 function startGame(){
-    
     initializeCards(game.createCardsFromTechs());
 }
 
@@ -55,6 +56,8 @@ function createCardFace(face, card, element){
 }
 
 
+// MECANICA DO JOGO
+
 function flipCard(){
 
     if(game.setCard(this.id)){
@@ -86,6 +89,7 @@ function flipCard(){
 }
 
 
+// reiniciar o jogo 
 function restart(){
     startGame();
     let gameOverLayer = document.getElementById("gameOver");
