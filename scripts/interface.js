@@ -95,3 +95,22 @@ function restart(){
     let gameOverLayer = document.getElementById("gameOver");
     gameOverLayer.style.display = "none";
 }
+
+// Dark-Mode 
+let body = document.body;
+let setMode = document.getElementById('mode');
+let darkMode = false;
+function changeMode(){
+    darkMode = !darkMode;
+    if(darkMode == true){
+
+        body.classList.add("dark_mode");
+        setMode.style.backgroundColor = "#c7cdd3";
+
+    }else{
+
+        body.classList.remove("dark_mode");
+        setMode.style.backgroundColor = "rgb(22, 22, 29)";
+
+    }  
+}
